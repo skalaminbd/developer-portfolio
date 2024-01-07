@@ -60,6 +60,9 @@ section{
     padding:0 100px;
     margin-bottom: 60px;
 }
+.button i{
+    margin-right: 15px;
+}
 /*=== Header Design===*/
 header{
     background-color: #FFF8F3;
@@ -81,6 +84,7 @@ header nav{
 }
 header nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -212,6 +216,17 @@ footer .contact-form{
 footer h3{
     font-size: 27px;
     margin-bottom: 30px;
+}
+footer .social-icons a{
+    margin-right: 15px;
+    transition: .2s ease-in-out;
+}
+footer .social-icons i{
+    font-size: 25px;
+    color: #FD6E0A;
+}
+footer .social-icons a:hover i{
+    color: #000000;
 }
 form input, textarea{
     display: block;
