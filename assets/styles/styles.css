@@ -48,6 +48,9 @@ p{
     background: #FD6E0A;
     color: #fff;
 }
+.section-title{
+    font-size: 35px;
+}
 /*=== Header Design===*/
 header{
     background-color: #FFF8F3;
@@ -115,4 +118,17 @@ nav li a:hover{
 .banner-image img{
     height: 670px;
     margin-bottom: -4px;
+}
+/*=============About Section================*/
+#about{
+    padding:100px 0;
+}
+#about .section-content{
+    padding:100px;
+    background-color:#FFF8F3 ;
+    text-align: center;
+}
+#about .personal-details{
+    display: flex;
+    justify-content: space-around;
 }
