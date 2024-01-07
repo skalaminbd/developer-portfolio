@@ -48,8 +48,15 @@ p{
     background: #FD6E0A;
     color: #fff;
 }
+section{
+    padding: 50px 0;
+}
 .section-title{
     font-size: 35px;
+}
+.section-content{
+    text-align: center;
+    padding:0 100px;
 }
 /*=== Header Design===*/
 header{
@@ -124,11 +131,30 @@ nav li a:hover{
     padding:100px 0;
 }
 #about .section-content{
-    padding:100px;
     background-color:#FFF8F3 ;
-    text-align: center;
+    padding: 100px;
 }
 #about .personal-details{
     display: flex;
     justify-content: space-around;
 }
+/*=============Services Section================*/
+#services .all-services{
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+#services .service-item{
+    padding: 20px;
+    box-shadow: 0 0 55px #7976761a;
+    transition: .3s ease-in-out;
+}
+
+#services .service-item:hover{
+    padding: 20px;
+    box-shadow: 0 0 55px #79767647;
+}
+#services .service-item img{
+    margin-bottom: 15px;
+}
+
