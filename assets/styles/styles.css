@@ -194,3 +194,36 @@ nav li a:hover{
     text-align: center;
     margin-top: 50px;
 }
+/*========== Footer Section Design=============*/
+footer{
+    padding: 100px 0;
+    background-color:#FFF8F3 ;
+}
+footer .container{
+    display: flex;
+    gap:40px;
+}
+footer .contact-us{
+    width: 60%;
+}
+footer .contact-form{
+    width: 40%;
+}
+footer h3{
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+form input, textarea{
+    display: block;
+    padding: 15px;
+    width: 93%;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+form input[type="submit"]{
+    display: inline-block;
+    width: auto;
+}
